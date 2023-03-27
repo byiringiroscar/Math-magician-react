@@ -115,7 +115,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder by:
-- git clone https://github.com/byiringiroscar/Leaderboard
+- git clone https://github.com/byiringiroscar/Math-magician-react
 
 <!--
 Example commands:
@@ -129,7 +129,7 @@ Example commands:
 ### Install
 
 
-Install this project with: cd Leaderboard
+Install this project with: cd Math-magician-react
 
 <!--
 Example command:
@@ -143,10 +143,9 @@ Example command:
 ### Usage
 
 
-To run the project make **[Node js ]** installed then , execute the following command: 
+To run the project make sure **[Node js ]** installed correctly then , execute the following command: 
 - npm install
-- npm run build
-- npm run start
+- npm start
 
 <!--
 Example command:
@@ -174,7 +173,8 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add spinner for loading]**
+- [ ] **[Add Basic Layout ]**
+- [ ] **[Add APIs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
