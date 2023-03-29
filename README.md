@@ -68,6 +68,8 @@ After you're finished please remove all the comments and instructions!
   <summary>Client</summary>
   <ul>
     <li><a href="https://html.org/">React</a></li>
+    <li><a href="https://html.org/">css</a></li>
+    <li><a href="https://html.org/">Jsx</a></li>
   </ul>
 </details>
 
@@ -77,6 +79,7 @@ After you're finished please remove all the comments and instructions!
 
 
 - **[Set up project ]**
+- **[User Interface ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +176,7 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add Basic Layout ]**
+- [ ] **[Add Basic Functionality ]**
 - [ ] **[Add APIs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
