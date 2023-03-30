@@ -5,10 +5,10 @@ const Screen = ({ calcul, handleClick }) => {
   return (
     <div className="calculator-content">
       <p className="calc-item item-one">{ next || operation || total || 0}</p>
-      <button type="button" className="calc-item" onClick={handleClick}>0</button>
       <button type="button" className="calc-item" onClick={handleClick}>AC</button>
       <button type="button" className="calc-item" onClick={handleClick}>+/-</button>
-      <button type="button" className="calc-item operator" onClick={handleClick} value="&divide;">/</button>
+      <button type="button" className="calc-item" onClick={handleClick}>%</button>
+      <button type="button" className="calc-item operator" onClick={handleClick}>/</button>
       <button type="button" className="calc-item" onClick={handleClick}>7</button>
       <button type="button" className="calc-item" onClick={handleClick}>8</button>
       <button type="button" className="calc-item" onClick={handleClick}>9</button>
