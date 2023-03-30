@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
 
-  <h3><b>Math Magician</b></h3>
+  
 
 </div>
 
