@@ -1,13 +1,6 @@
-import { useState } from 'react';
-import calculate from '../logic/calculate';
+import PropTypes from 'prop-types';
 
-const Screen = () => {
-  const [calcul, setCalcul] = useState({ total: 0, next: null, operation: null });
-  const handleClick = (e) => {
-    const data = e.target.textContent;
-    const calc = calculate(calcul, data);
-    setCalcul(calc);
-  };
+const Screen = ({ calcul, handleClick }) => {
   const { total, next, operation } = calcul;
   return (
     <div className="calculator-content">
@@ -35,8 +28,13 @@ const Screen = () => {
   );
 };
 
-// Screen.propTypes = {
-//   handleClick: PropTypes.func.isRequired,
-// };
+Screen.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+  calcul: PropTypes.shape({
+    total: PropTypes.string.isRequired,
+    next: PropTypes.string,
+    operation: PropTypes.string,
+  }).isRequired,
+};
 
 export default Screen;
