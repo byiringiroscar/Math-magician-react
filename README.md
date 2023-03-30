@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
 
-  <h3><b>Math Magician</b></h3>
+  
 
 </div>
 
@@ -41,7 +41,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -80,14 +79,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[Set up project ]**
 - **[User Interface ]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](coming soon ...)
+- **[Calculator functionality ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,8 +168,8 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add Basic Functionality ]**
 - [ ] **[Add APIs]**
+- [ ] **[Design good Interface]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

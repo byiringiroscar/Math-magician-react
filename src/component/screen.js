@@ -1,26 +1,40 @@
-const Screen = () => (
-  <div className="calculator-content">
-    <p className="calc-item item-one">0</p>
-    <div className="calc-item">0</div>
-    <div className="calc-item">AC</div>
-    <div className="calc-item">+/-</div>
-    <div className="calc-item operator">/</div>
-    <div className="calc-item">7</div>
-    <div className="calc-item">8</div>
-    <div className="calc-item">9</div>
-    <div className="calc-item operator">*</div>
-    <div className="calc-item">4</div>
-    <div className="calc-item">5</div>
-    <div className="calc-item">6</div>
-    <div className="calc-item operator">-</div>
-    <div className="calc-item">1</div>
-    <div className="calc-item">2</div>
-    <div className="calc-item">3</div>
-    <div className="calc-item operator">+</div>
-    <div className="calc-item item-zero">0</div>
-    <div className="calc-item">.</div>
-    <div className="calc-item operator">=</div>
-  </div>
-);
+import PropTypes from 'prop-types';
+
+const Screen = ({ calcul, handleClick }) => {
+  const { total, next, operation } = calcul;
+  return (
+    <div className="calculator-content">
+      <p className="calc-item item-one">{ next || operation || total || 0}</p>
+      <button type="button" className="calc-item" onClick={handleClick}>AC</button>
+      <button type="button" className="calc-item" onClick={handleClick} value="&plusmn;">+/-</button>
+      <button type="button" className="calc-item" onClick={handleClick} value="&divide;">%</button>
+      <button type="button" className="calc-item operator" onClick={handleClick}>÷</button>
+      <button type="button" className="calc-item" onClick={handleClick}>7</button>
+      <button type="button" className="calc-item" onClick={handleClick}>8</button>
+      <button type="button" className="calc-item" onClick={handleClick}>9</button>
+      <button type="button" className="calc-item operator" onClick={handleClick} value="x">x</button>
+      <button type="button" className="calc-item" onClick={handleClick}>4</button>
+      <button type="button" className="calc-item" onClick={handleClick}>5</button>
+      <button type="button" className="calc-item" onClick={handleClick}>6</button>
+      <button type="button" className="calc-item operator" onClick={handleClick}>-</button>
+      <button type="button" className="calc-item" onClick={handleClick}>1</button>
+      <button type="button" className="calc-item" onClick={handleClick}>2</button>
+      <button type="button" className="calc-item" onClick={handleClick}>3</button>
+      <button type="button" className="calc-item operator" onClick={handleClick}>+</button>
+      <button type="button" className="calc-item item-zero" onClick={handleClick}>0</button>
+      <button type="button" className="calc-item" onClick={handleClick}>.</button>
+      <button type="button" className="calc-item operator" onClick={handleClick}>=</button>
+    </div>
+  );
+};
+
+Screen.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+  calcul: PropTypes.shape({
+    total: PropTypes.string.isRequired,
+    next: PropTypes.string,
+    operation: PropTypes.string,
+  }).isRequired,
+};
 
 export default Screen;
