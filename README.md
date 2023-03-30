@@ -80,6 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[Set up project ]**
 - **[User Interface ]**
+- **[Calculator functionality ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,8 +177,8 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add Basic Functionality ]**
 - [ ] **[Add APIs]**
+- [ ] **[Design good Interface]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
