@@ -80,6 +80,7 @@ After you're finished please remove all the comments and instructions!
 - **[Set up project ]**
 - **[User Interface ]**
 - **[Calculator functionality ]**
+- **[Fetch Api ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,8 +169,7 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add APIs]**
-- [ ] **[Design good Interface]**
+- [ ] **[Add loading spin]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
