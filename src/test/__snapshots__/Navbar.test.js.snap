@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders Math Magician header 1`] = `
+<header>
+  <a
+    class="site-title"
+    href="/"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+  </a>
+  <ul
+    class="nav"
+  >
+    <li
+      class="nav-single"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="nav-single"
+    >
+      <a
+        href="/calculator"
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      class="nav-single"
+    >
+      <a
+        href="/quote"
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</header>
+`;
+
+exports[`Header component renders calculator screen 1`] = `
+<div
+  class="calculator-content"
+>
+  <p
+    class="calc-item item-one"
+  >
+    0
+  </p>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+    value="±"
+  >
+    +/-
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+    value="÷"
+  >
+    %
+  </button>
+  <button
+    class="calc-item operator"
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    7
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    8
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    9
+  </button>
+  <button
+    class="calc-item operator"
+    type="button"
+    value="x"
+  >
+    x
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    4
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    5
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    6
+  </button>
+  <button
+    class="calc-item operator"
+    type="button"
+  >
+    -
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    1
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    2
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    3
+  </button>
+  <button
+    class="calc-item operator"
+    type="button"
+  >
+    +
+  </button>
+  <button
+    class="calc-item item-zero"
+    type="button"
+  >
+    0
+  </button>
+  <button
+    class="calc-item"
+    type="button"
+  >
+    .
+  </button>
+  <button
+    class="calc-item operator"
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;

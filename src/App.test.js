@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import renderer from 'react-test-renderer';
+import { BrowserRouter, Link } from 'react-router-dom';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it('renders correctly', () => {
+  const tree = renderer
+    .create(
+      <BrowserRouter basename="/">
+        <Link to="http://www.facebook.com">Facebook</Link>
+      </BrowserRouter>,
+    )
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });
