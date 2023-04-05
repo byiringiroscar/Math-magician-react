@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Screen = ({ calcul, handleClick }) => {
-  const { total, next, operation } = calcul;
+  const { total = '0', next, operation } = calcul || {};
   return (
     <div className="calculator-content">
       <p className="calc-item item-one">{ next || operation || total || 0}</p>
