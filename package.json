@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "react-scripts": "^5.0.1"
-=======
   "name": "math-magician-react",
   "version": "0.1.0",
   "private": true,
@@ -58,6 +54,5 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
->>>>>>> 1ece37554241700ddb51961a7a94e99d89a0d606
   }
 }
